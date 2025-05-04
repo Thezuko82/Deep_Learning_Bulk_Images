@@ -1,0 +1,8 @@
+streamlit 
+tensorflow
+numpy
+PIL
+Tempfile
+os
+shutil
+Zipfile
