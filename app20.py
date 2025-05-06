@@ -14,6 +14,7 @@ st.set_page_config(page_title="Image Classifier", layout="wide")
 
 st.title("🧠 Deep Learning on Bulk Images")
 st.write("Upload training and validation image ZIPs. Train and test a CNN image classifier.")
+st.write("Resize your images from this this python app. Click here - https://image-resizer-with-format-conversion.streamlit.app/")
 
 # --- Utility Functions ---
 def load_dataset(zip_file, img_size, batch_size):
